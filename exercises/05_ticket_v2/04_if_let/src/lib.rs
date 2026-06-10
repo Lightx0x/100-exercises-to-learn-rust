@@ -11,8 +11,8 @@ impl Shape {
         if let Shape::Circle { radius } = self {
             *radius
         } else {
-            panic!("not a circle")
-        } 
+            panic!("Not a circle");
+        }
     }
 }
 
